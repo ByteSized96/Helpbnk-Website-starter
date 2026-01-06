@@ -1,0 +1,151 @@
+{
+    "site": {
+        "brand_name": "Your Business",
+        "tagline": "Modern, fast, mobile‑first website you can edit in minutes.",
+        "phone": "+44 0000 000000",
+        "email": "hello@example.com",
+        "address": "Your Address, United Kingdom",
+        "google_maps_embed_url": "https://www.google.com/maps?q=London&output=embed",
+        "socials": {
+            "instagram": "https://instagram.com/",
+            "facebook": "https://facebook.com/",
+            "tiktok": "https://tiktok.com/",
+            "linkedin": "https://linkedin.com/"
+        },
+        "theme": {
+            "accent": "indigo",
+            "accent_hex": "#FF00A2",
+            "palette": "custom",
+            "mode": "warm",
+            "bg_hex": "#9AE4D2"
+        },
+        "assets": {
+            "logo_path": "/uploads/logo.svg",
+            "og_image_path": "/uploads/og.png",
+            "favicon_path": "/uploads/favicon.png"
+        },
+        "footer_credit_enabled": true,
+        "footer_credit_text": "Template by 1‑Byte Tools"
+    },
+    "seo": {
+        "default_title_suffix": " | Your Business",
+        "default_description": "A fast, modern, editable 5‑page website starter with admin panel.",
+        "default_og_title": "Your Business",
+        "default_og_description": "Edit your website content in an admin panel — no coding required."
+    },
+    "pages": {
+        "home": {
+            "title": "Welcome",
+            "hero_title": "A beautiful website ready today.",
+            "hero_subtitle": "Edit everything from your admin panel. Mobile‑first Tailwind design.",
+            "cta_primary_text": "Get in touch",
+            "cta_primary_href": "/contact.php",
+            "cta_secondary_text": "View services",
+            "cta_secondary_href": "/services.php",
+            "feature_blocks": [
+                {
+                    "title": "Fast & modern",
+                    "text": "Tailwind layout, lightweight PHP, no bloated plugins."
+                },
+                {
+                    "title": "Editable",
+                    "text": "Update content, services, gallery images, and SEO in admin."
+                },
+                {
+                    "title": "Lead-ready",
+                    "text": "Contact form saves messages and can email you too."
+                }
+            ],
+            "sections": [
+                {
+                    "heading": "Why people choose us",
+                    "text": "Use this space to explain what makes you different. Keep it short, friendly, and clear."
+                },
+                {
+                    "heading": "What we do",
+                    "text": "List your core services and the outcomes clients get from working with you."
+                }
+            ],
+            "slideshow": {
+                "enabled": false,
+                "interval": 4,
+                "height": 360,
+                "images": [
+                    "/uploads/slides/icon-20260106-135454-de2fb2.png"
+                ]
+            }
+        },
+        "about": {
+            "title": "About",
+            "headline": "A little about us",
+            "body": "Write your story here. Share your experience, what you stand for, and who you help.\n\nTip: Keep it human, not corporate."
+        },
+        "services": {
+            "title": "Services",
+            "headline": "Services that get results",
+            "items": [
+                {
+                    "title": "Service One",
+                    "price": "From £99",
+                    "text": "Describe what’s included and who it’s for."
+                },
+                {
+                    "title": "Service Two",
+                    "price": "From £199",
+                    "text": "Describe the outcome, not just the features."
+                },
+                {
+                    "title": "Service Three",
+                    "price": "Custom",
+                    "text": "Describe your custom work or packages."
+                }
+            ]
+        },
+        "gallery": {
+            "title": "Gallery",
+            "headline": "Recent work",
+            "items": [
+                {
+                    "image": "/uploads/sample-1.jpg",
+                    "caption": "Project caption 1"
+                },
+                {
+                    "image": "/uploads/sample-2.jpg",
+                    "caption": "Project caption 2"
+                },
+                {
+                    "image": "/uploads/sample-3.jpg",
+                    "caption": "Project caption 3"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contact",
+            "headline": "Let’s talk",
+            "intro": "Send a message and we’ll get back to you as soon as possible.",
+            "form_success_message": "Thanks your message has been sent."
+        }
+    },
+    "page_seo": {
+        "home": {
+            "title": "Home",
+            "description": "A modern, editable website starter."
+        },
+        "about": {
+            "title": "About",
+            "description": "Learn more about our story and values."
+        },
+        "services": {
+            "title": "Services",
+            "description": "Explore our services and pricing."
+        },
+        "gallery": {
+            "title": "Gallery",
+            "description": "Browse recent work and examples."
+        },
+        "contact": {
+            "title": "Contact",
+            "description": "Get in touch today."
+        }
+    }
+}

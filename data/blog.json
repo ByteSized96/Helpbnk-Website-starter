@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": "p1",
+      "title": "3 quick ways to improve your website today",
+      "slug": "improve-website-today",
+      "date": "2026-01-01",
+      "excerpt": "Small, practical tweaks that make your site feel faster, clearer, and more trustworthy.",
+      "content": "Here are three quick wins:\n\n1) Tighten your headline.\n2) Add one clear call to action.\n3) Compress your images.\n\nIf you want, I can help you apply these to your own site.",
+      "cover": "",
+      "tags": [
+        "Website",
+        "Tips"
+      ],
+      "published": true
+    },
+    {
+      "id": "p2",
+      "title": "Why a simple blog helps SEO (even for small businesses)",
+      "slug": "why-blog-helps-seo",
+      "date": "2025-12-15",
+      "excerpt": "A blog gives search engines fresh pages to index, and gives customers reasons to trust you.",
+      "content": "A blog works because it adds:\n\n- Fresh content\n- More keywords (naturally)\n- Internal links\n- Authority over time\n\nKeep posts short, specific, and useful.",
+      "cover": "",
+      "tags": [
+        "SEO"
+      ],
+      "published": true
+    },
+    {
+      "id": "p3",
+      "title": "Draft: behind the scenes",
+      "slug": "behind-the-scenes-draft",
+      "date": "2026-01-05",
+      "excerpt": "This is a draft post (not public).",
+      "content": "Draft content…",
+      "cover": "",
+      "tags": [
+        "News"
+      ],
+      "published": false
+    }
+  ]
+}
