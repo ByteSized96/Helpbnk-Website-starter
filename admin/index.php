@@ -255,14 +255,14 @@ function active_tab(string $t, string $tab): string {
 
         <div id="servicesWrap" class="mt-6 grid gap-4">
           <?php foreach ($items as $idx=>$it): ?>
-            <!-- ✅ FIX: give the OUTER wrapper a class so Remove works reliably -->
+            <!-- FIX: give the OUTER wrapper a class so Remove works reliably -->
             <div class="svc_card rounded-3xl border border-white/10 bg-white/5 p-5">
               <div class="flex items-center justify-between gap-3">
                 <div class="flex items-center gap-2 font-semibold">
                   <span class="drag-handle cursor-grab select-none opacity-80">⠿</span>
                   Service <?= (int)$idx + 1 ?>
                 </div>
-                <!-- ✅ FIX: remove the whole card -->
+                <!-- FIX: remove the whole card -->
                 <button onclick="this.closest('.svc_card').remove()" class="text-sm text-red-200 hover:text-red-100">Remove</button>
               </div>
 
@@ -936,7 +936,7 @@ function active_tab(string $t, string $tab): string {
   function addService() {
     const wrap = document.getElementById('servicesWrap');
     const card = document.createElement('div');
-    // ✅ FIX: give outer wrapper a class for reliable removing
+    // FIX: give outer wrapper a class for reliable removing
     card.className = 'svc_card rounded-3xl border border-white/10 bg-white/5 p-5';
     card.innerHTML = `
       <div class="flex items-center justify-between">
@@ -1130,3 +1130,4 @@ function active_tab(string $t, string $tab): string {
 </script>
 </body>
 </html>
+
